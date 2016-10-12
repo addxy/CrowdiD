@@ -1,0 +1,44 @@
+body {
+  font-family : Helvetica,Arial,sans-serif;
+  margin : 0;
+}
+
+h1 {
+  border-bottom	: 1px solid #af3c43;
+  font-size		: 34px;
+  margin-bottom	: 10px;
+  margin-top		: 10px;
+  padding-bottom	: .1em;
+}
+
+.link {
+  float : right;
+}
+
+.footer, .header {
+  margin : 10px 0 10px 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+}
+
+.content {
+  width	: 100%;
+  position: absolute;
+  top		: 50px;
+  bottom	: 0px;
+}
+
+.content iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+h1, .header, .footer {
+  margin : 8px 8px 8px 8px;
+}
+.navbar-brand {
+  font-size: 20px;
+}
