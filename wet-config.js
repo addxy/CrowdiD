@@ -1,12 +1,10 @@
-﻿var path = 'https://crowdid.osmcanada.ca/';
-
-var config = {
+﻿var config = {
 	tabTitle 	: { en: "iD Editor", fr: "Éditeur iD" },
 	cntTitle 	: { en: "", fr: "" },
-	localeLink	: { en: path + "index-fra.html" , fr:path + "index-eng.html" },
+	localeLink	: { en: "index-fra.html" , fr: "index-eng.html" },
 	appLink		: {
-					en: path + "iD-release/index.html?locale=en-US&#background=MAPNIK&map=13.00/-75.7053/45.4269", 
-					fr: path + "iD-release/index.html?locale=fr-CA&#background=MAPNIK&map=13.00/-75.7053/45.4269" 
+					en: "iD-release/index.html?locale=en-US&#background=MAPNIK&map=13.00/-75.7053/45.4269",
+					fr: "iD-release/index.html?locale=fr-CA&#background=MAPNIK&map=13.00/-75.7053/45.4269"
 				  }
 }
 
