@@ -1,7 +1,7 @@
 ﻿var config = {
-	tabTitle 	: { en: "iD Editor", fr: "Éditeur iD" },
+	tabTitle 	: { en: "Crowdsourcing", fr: "Approche participative" },
 	cntTitle 	: { en: "", fr: "" },
-	localeLink	: { en: "index-fra.html" , fr: "index-eng.html" },
+	localeLink	: { en: "index-fra.html" , fr: "index-eng.html"},
 	appLink		: {
 					en: "iD-release/index.html?locale=en-US&#background=MAPNIK&map=13.00/-75.7053/45.4269",
 					fr: "iD-release/index.html?locale=fr-CA&#background=MAPNIK&map=13.00/-75.7053/45.4269"
