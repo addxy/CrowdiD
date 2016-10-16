@@ -37,17 +37,16 @@ iD.ui.MapData = function(context) {
                 context.storage('area-fill', d);
             }
             update();
-			//mourad
+			//mourad //Monduiz: added points
 			var feat = context.features().keys();
 			for (var i = 0, len = feat.length; i < len; i++) {
 			  var f = feat[i];
 			  if((f != 'buildings') && (f != 'points')) {
 				clickFeature(f);
+			   }
 			  }
-			}
-			//mourad
-
-        }
+			//mourad //Monduiz: added points
+      }
 
         function toggleLayer(which) {
             var layer = layers.layer(which);
