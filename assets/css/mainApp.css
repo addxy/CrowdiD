@@ -1,0 +1,22 @@
+body {
+  font-family : Helvetica,Arial,sans-serif;
+  margin : 0;
+}
+
+
+
+.content {
+  width	: 100%;
+  position: absolute;
+  top		: 50px;
+  bottom	: 0px;
+}
+
+.content iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}

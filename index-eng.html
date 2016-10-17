@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<title></title>
+		<link rel="stylesheet" href="assets/bootstrap-3.3.6/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/css/mainApp.css">
+
+		<!-- mobile devices -->
+			 <meta name='viewport' content='initial-scale=1.0 maximum-scale=1.0'>
+			 <meta name='apple-mobile-web-app-capable' content='yes' />
+			 <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
+
+
+		<script type="text/javascript">
+			var wb = { lang:"en" }
+		</script>
+		<script type="text/javascript" src="./wet-config.js"></script>
+		<script src="assets/js/jquery-2.1.4.min.js"></script>
+		<script src="assets/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+
+	</head>
+	<body onload="Initialize()">
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="index-eng.html">Crowdsourcing buildings</a>
+	        </div>
+	        
+	        <div class="navbar-collapse collapse">
+	  	  	<ul class="nav navbar-nav navbar-right">
+				<li><a class="btn btn-link pull-right" href="discl.html">Terms of Use</a></li>
+				<li><a href="" class="btn btn-link pull-right" onclick="onLoad()">login to OpenStreetMap</a></li>
+		  		<li><a id="wb-locale"  class="link" href="">Français&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+	  		</ul>
+
+	  		<ul class="nav navbar-nav">
+	            <li><a href="about.html" data-toggle="collapse" data-target=".navbar-collapse.in">&nbsp;&nbsp;About</a></li>
+	          </ul>
+	        </div><!--/.navbar-collapse -->
+	      </div>
+
+		<div id="wb-cont"></div>
+		<div id="wb-content" class="content"></div>
+		</body>
+		
+</html>
