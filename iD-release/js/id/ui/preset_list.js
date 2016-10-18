@@ -114,8 +114,6 @@ iD.ui.PresetList = function(context) {
             .attr('class', function(item) { return 'preset-list-item preset-' + item.preset.id.replace('/', '-'); })
             .classed('current', function(item) { return item.preset === currentPreset; })
             .each(function(item) {
-				//mourad //Monduiz: added points to presets
-				if((item.preset.id.indexOf("building")) || (item.preset.id.indexOf("building")) != -1)
 					d3.select(this).call(item);
 			})
             .style('opacity', 0)
