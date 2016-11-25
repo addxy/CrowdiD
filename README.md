@@ -1,3 +1,16 @@
-# Crowdsourcing with StatCan
+# CrowdiD2 - modified version of [iD](https://github.com/openstreetmap/iD)
 
-![image](https://cloud.githubusercontent.com/assets/550895/19432041/cbd3f624-9428-11e6-8a0f-a157599f76e2.png)
+## iD for Crowdsourcing
+
+This is the next version of iD for the project Crowdsourcing buildings with Statistics Canada.
+
+The development repository can found at [CrowdiD2](https://github.com/Monduiz/CrowdiD2)
+
+[http://www.statcan.gc.ca/eng/crowdsourcing](http://www.statcan.gc.ca/eng/crowdsourcing)
+
+[http://www.statcan.gc.ca/fra/approcheparticipative](http://www.statcan.gc.ca/fra/approcheparticipative)
+
+## License
+
+iD is available under the [ISC License](https://opensource.org/licenses/ISC).
+It includes [d3.js](http://d3js.org/), which BSD-licensed.

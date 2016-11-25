@@ -143,13 +143,13 @@ input::-moz-focus-inner {
 input {
   line-height: normal;
 }
-input[type="checkbox"],
+/*Monduiz input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
-}
+}*/
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -1066,10 +1066,10 @@ th {
   content: "\e260";
 }
 * {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
+  /*Monduiz -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;*/
           box-sizing: border-box;
-}
+}/*
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
@@ -1087,7 +1087,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
-}
+}*/
 input,
 button,
 select,
@@ -2517,12 +2517,12 @@ input[type="search"] {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-input[type="radio"],
+/*Monduiz input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
   margin-top: 1px \9;
   line-height: normal;
-}
+}*/
 input[type="file"] {
   display: block;
 }
@@ -5855,10 +5855,10 @@ button.close {
   background: transparent;
   border: 0;
 }
-.modal-open {
+.modal2-open {
   overflow: hidden;
 }
-.modal {
+.modal2 {
   position: fixed;
   top: 0;
   right: 0;
@@ -5870,7 +5870,7 @@ button.close {
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
-.modal.fade .modal-dialog {
+.modal2.fade .modal-dialog {
   -webkit-transition: -webkit-transform .3s ease-out;
        -o-transition:      -o-transform .3s ease-out;
           transition:         transform .3s ease-out;
@@ -5879,13 +5879,13 @@ button.close {
        -o-transform: translate(0, -25%);
           transform: translate(0, -25%);
 }
-.modal.in .modal-dialog {
+.modal2.in .modal-dialog {
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
        -o-transform: translate(0, 0);
           transform: translate(0, 0);
 }
-.modal-open .modal {
+.modal-open .modal2 {
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -5978,6 +5978,8 @@ button.close {
     width: 900px;
   }
 }
+
+/*Monduiz 
 .tooltip {
   position: absolute;
   z-index: 1070;
@@ -6022,14 +6024,14 @@ button.close {
   padding: 0 5px;
   margin-left: -3px;
 }
-/*.tooltip-inner {
+.tooltip-inner {
   max-width: 200px;
   padding: 3px 8px;
   color: #fff;
   text-align: center;
   background-color: #000;
   border-radius: 4px;
-}*/
+}
 .tooltip-arrow {
   position: absolute;
   width: 0;
@@ -6093,6 +6095,7 @@ button.close {
   border-width: 0 5px 5px;
   border-bottom-color: #000;
 }
+*/
 .popover {
   position: absolute;
   top: 0;
