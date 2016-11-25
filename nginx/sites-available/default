@@ -11,7 +11,7 @@ server {
     ssl_certificate_key         /etc/letsencrypt/live/crowdid.osmcanada.ca/privkey.pem;
     ssl_trusted_certificate     /etc/letsencrypt/live/crowdid.osmcanada.ca/fullchain.pem;
 
-    index index-eng.html;
+    index index.html;
 
     location / {
         try_files $uri $uri/ $uri.html index.html =404;
