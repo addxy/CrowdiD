@@ -2,14 +2,14 @@ server {
     listen 443 ssl http2;
     listen [::]:443 ssl http2;
 
-    server_name crowdid.osmcanada.ca;
+    server_name crowdid.osmcanada.com;
     server_name_in_redirect off;
 
     root /var/www/html/CrowdiD;
 
-    ssl_certificate             /etc/letsencrypt/live/crowdid.osmcanada.ca/fullchain.pem;
-    ssl_certificate_key         /etc/letsencrypt/live/crowdid.osmcanada.ca/privkey.pem;
-    ssl_trusted_certificate     /etc/letsencrypt/live/crowdid.osmcanada.ca/fullchain.pem;
+    ssl_certificate             /etc/letsencrypt/live/crowdid.osmcanada.com/fullchain.pem;
+    ssl_certificate_key         /etc/letsencrypt/live/crowdid.osmcanada.com/privkey.pem;
+    ssl_trusted_certificate     /etc/letsencrypt/live/crowdid.osmcanada.com/fullchain.pem;
 
     index index.html;
 
@@ -22,18 +22,18 @@ server {
 }
 
 server {
-    server_name www.crowdid.osmcanada.ca crowdid.osmcanada.ca;
-    return 301 https://crowdid.osmcanada.ca$request_uri;
+    server_name www.crowdid.osmcanada.ca crowdid.osmcanada.ca www.crowdid.osmcanada.com crowdid.osmcanada.com;
+    return 301 https://crowdid.osmcanada.com$request_uri;
 }
 
 server {
     listen 443 ssl http2;
     listen [::]:443 ssl http2;
 
-    ssl_certificate             /etc/letsencrypt/live/crowdid.osmcanada.ca/fullchain.pem;
-    ssl_certificate_key         /etc/letsencrypt/live/crowdid.osmcanada.ca/privkey.pem;
-    ssl_trusted_certificate     /etc/letsencrypt/live/crowdid.osmcanada.ca/fullchain.pem;
+    ssl_certificate             /etc/letsencrypt/live/crowdid.osmcanada.com/fullchain.pem;
+    ssl_certificate_key         /etc/letsencrypt/live/crowdid.osmcanada.com/privkey.pem;
+    ssl_trusted_certificate     /etc/letsencrypt/live/crowdid.osmcanada.com/fullchain.pem;
 
-    server_name www.crowdid.osmcanada.ca;
-    return 301 https://crowdid.osmcanada.ca$request_uri;
+    server_name www.crowdid.osmcanada.ca crowdid.osmcanada.ca www.crowdid.osmcanada.com;
+    return 301 https://crowdid.osmcanada.com$request_uri;
 }
